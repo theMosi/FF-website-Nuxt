@@ -1,3 +1,4 @@
 <template>
-    
+    <SliderComp />
+    <FeaturesComp />
 </template>
