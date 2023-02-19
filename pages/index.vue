@@ -3,4 +3,5 @@
     <FeaturesComp />
     <ProductTabsComp />
     <AboutUsComp />
+    <ContactUsComp />
 </template>
