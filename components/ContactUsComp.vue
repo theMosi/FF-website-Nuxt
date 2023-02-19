@@ -80,6 +80,7 @@ const submitFunc = async () => {
         toast.success('پیام شما با موفقیت ثبت شد');
     }catch(error){
         errors.value = Object.values(error.data.message).flat();
+        console.log(errors.value)
     }finally{
         loading.value = false;
     }
