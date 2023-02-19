@@ -35,5 +35,4 @@ const {public: {apiBase}} = useRuntimeConfig();
 
 const {data: products , error} = await useFetch(`${apiBase}/products/products-tabs`);
 
-console.log(products.value)
 </script>

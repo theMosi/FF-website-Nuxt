@@ -23,7 +23,7 @@
                                     <NuxtLink class="nav-link" to="/">صفحه اصلی</NuxtLink>
                                 </li>
                                 <li class="nav-item" :class="{active:$route.path ==='/menu'}">
-                                    <NuxtLink class="nav-link" to="menu.html">منو</NuxtLink>
+                                    <NuxtLink class="nav-link" to="/menu">منو</NuxtLink>
                                 </li>
                                 <li class="nav-item" :class="{active:$route.path ==='/about-us'}">
                                     <NuxtLink class="nav-link" to="/about-us">درباره ما</NuxtLink>
