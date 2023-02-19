@@ -1,5 +1,6 @@
 <template>
     <SliderComp />
     <FeaturesComp />
-    <ProductsTabsComp />
+    <ProductTabsComp />
+    <AboutUsComp />
 </template>
